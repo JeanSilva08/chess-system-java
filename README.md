@@ -2,7 +2,9 @@
   SMART CHESS SYSTEM
 </h1>
 
-
+<div align="center">
+<img src="https://user-images.githubusercontent.com/65496391/148303637-3935bc6d-6d9a-4ffa-b486-5a593f5e106a.png"/>
+</div>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -18,7 +20,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Java
 
 ## 💻 Projeto
-  Este projeto foi desenvolvido com base no curso  *__Java COMPLETO 2020 Programação Orientada a Objetos + Projetos__* da [Udemy](https://www.udemy.com/course/java-curso-completo/) lecionado pelo professor Nélio Alves. 
+  Este projeto foi desenvolvido com base no curso  *__Java COMPLETO 2021 Programação Orientada a Objetos + Projetos__* da [Udemy](https://www.udemy.com/course/java-curso-completo/) lecionado pelo professor Nélio Alves. 
   
   O Smart Chess consiste em um jogo simples de Xadrez, que pode ser executado através do terminal. O jogo possui tratamento de erros, programação defensiva (contra bugs), jogadas especiais do xadrez (promoção, roque e en passant) e previsão de movimento das peças.
   
