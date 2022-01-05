@@ -66,50 +66,49 @@ public class Queen extends ChessPiece {
 		if (getBoard().positionExists(p) && isThereOpponentPiece(p)) {
 			mat[p.getRow()][p.getColumn()] = true;
 		}
-		
+
 		// Noroeste
-				p.setValues(position.getRow() - 1, position.getColumn() - 1);
-				while (getBoard().positionExists(p) && !getBoard().theresIsAPiece(p)) {
-					mat[p.getRow()][p.getColumn()] = true;
-					p.setValues(p.getRow() - 1, p.getColumn() - 1);
-				}
-				if (getBoard().positionExists(p) && isThereOpponentPiece(p)) {
-					mat[p.getRow()][p.getColumn()] = true;
-				}
+		p.setValues(position.getRow() - 1, position.getColumn() - 1);
+		while (getBoard().positionExists(p) && !getBoard().theresIsAPiece(p)) {
+			mat[p.getRow()][p.getColumn()] = true;
+			p.setValues(p.getRow() - 1, p.getColumn() - 1);
+		}
+		if (getBoard().positionExists(p) && isThereOpponentPiece(p)) {
+			mat[p.getRow()][p.getColumn()] = true;
+		}
 
-				// Nordeste
-				p.setValues(position.getRow() - 1, position.getColumn() + 1);
-				while (getBoard().positionExists(p) && !getBoard().theresIsAPiece(p)) {
-					mat[p.getRow()][p.getColumn()] = true;
-					p.setValues(p.getRow() - 1, p.getColumn() + 1);
+		// Nordeste
+		p.setValues(position.getRow() - 1, position.getColumn() + 1);
+		while (getBoard().positionExists(p) && !getBoard().theresIsAPiece(p)) {
+			mat[p.getRow()][p.getColumn()] = true;
+			p.setValues(p.getRow() - 1, p.getColumn() + 1);
 
-				}
-				if (getBoard().positionExists(p) && isThereOpponentPiece(p)) {
-					mat[p.getRow()][p.getColumn()] = true;
-				}
+		}
+		if (getBoard().positionExists(p) && isThereOpponentPiece(p)) {
+			mat[p.getRow()][p.getColumn()] = true;
+		}
 
-				// Sudeste
-				p.setValues(position.getRow() + 1, position.getColumn() + 1);
-				while (getBoard().positionExists(p) && !getBoard().theresIsAPiece(p)) {
-					mat[p.getRow()][p.getColumn()] = true;
-					p.setValues(p.getRow() + 1, p.getColumn() + 1);
+		// Sudeste
+		p.setValues(position.getRow() + 1, position.getColumn() + 1);
+		while (getBoard().positionExists(p) && !getBoard().theresIsAPiece(p)) {
+			mat[p.getRow()][p.getColumn()] = true;
+			p.setValues(p.getRow() + 1, p.getColumn() + 1);
 
-				}
-				if (getBoard().positionExists(p) && isThereOpponentPiece(p)) {
-					mat[p.getRow()][p.getColumn()] = true;
-				}
+		}
+		if (getBoard().positionExists(p) && isThereOpponentPiece(p)) {
+			mat[p.getRow()][p.getColumn()] = true;
+		}
 
-				// Sudoeste
-				p.setValues(position.getRow() + 1, position.getColumn() - 1);
-				while (getBoard().positionExists(p) && !getBoard().theresIsAPiece(p)) {
-					mat[p.getRow()][p.getColumn()] = true;
-					p.setValues(p.getRow() + 1, p.getColumn() - 1);
+		// Sudoeste
+		p.setValues(position.getRow() + 1, position.getColumn() - 1);
+		while (getBoard().positionExists(p) && !getBoard().theresIsAPiece(p)) {
+			mat[p.getRow()][p.getColumn()] = true;
+			p.setValues(p.getRow() + 1, p.getColumn() - 1);
 
-				}
-				if (getBoard().positionExists(p) && isThereOpponentPiece(p)) {
-					mat[p.getRow()][p.getColumn()] = true;
-				}
-
+		}
+		if (getBoard().positionExists(p) && isThereOpponentPiece(p)) {
+			mat[p.getRow()][p.getColumn()] = true;
+		}
 
 		return mat;
 	}
