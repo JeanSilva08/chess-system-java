@@ -44,6 +44,15 @@ Peças: Pawn (Peão), Rook (Torre), Knight (Cavalo), Bishop (Bispo), Queen (Rain
 4. Após entrar no diretório, digite Java application/Program para rodar a aplicação (O java precisa estar na versão 11 ou superior).
 5. Bom Jogo!
 
+## 🖼️ Imagens
+
+| Tela Inicial  | Tratamento de Erro | Check | 
+|---|---|---|
+| ![tela-inicial](https://user-images.githubusercontent.com/54365007/90513167-9787d800-e135-11ea-8a35-ebf67854ea14.PNG)  | ![tratamento-erro](https://user-images.githubusercontent.com/54365007/90513194-9f477c80-e135-11ea-8383-9f3515959954.PNG)  | ![check](https://user-images.githubusercontent.com/54365007/90513197-9fe01300-e135-11ea-9fc8-5beef82c6557.PNG)  | 
+
+| Jogada Roque (Castling)  | Jogando... | Jogadas Finais | 
+|---|---|---|
+| ![rook-moving](https://user-images.githubusercontent.com/54365007/90513202-a078a980-e135-11ea-8156-e130702f7b64.PNG)  | ![jogo-continuo](https://user-images.githubusercontent.com/54365007/90513198-9fe01300-e135-11ea-9626-a02c3bb40636.PNG)  | ![late-game](https://user-images.githubusercontent.com/54365007/90513199-a078a980-e135-11ea-8b69-9590e1f11081.PNG)  | 
  
 
 ## 📝 Licença
