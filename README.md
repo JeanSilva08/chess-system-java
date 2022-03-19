@@ -46,8 +46,23 @@ Peças: Pawn (Peão), Rook (Torre), Knight (Cavalo), Bishop (Bispo), Queen (Rain
 5. Bom Jogo!
 
 ## 🖼️ Imagens
+        
+### Tela inicial:        
+![telainicial](https://user-images.githubusercontent.com/65496391/159099499-352165f9-716e-4744-90d5-1bf924af974f.png)
 
-Em produção ⚠️🚧🚧⚠️
+### Jogando
+![jogando](https://user-images.githubusercontent.com/65496391/159099544-f437215e-58dd-480d-98aa-33a85261ad37.png)
+
+### Roque 
+![roque](https://user-images.githubusercontent.com/65496391/159099591-8ebc5296-80a1-4200-9ea7-8418e5c6e8a6.png)
+
+### Check 
+![check](https://user-images.githubusercontent.com/65496391/159099649-6f56245c-4442-46af-839e-49e60a80e70e.png)
+
+### Tratamento de erro
+![tratamento de erro](https://user-images.githubusercontent.com/65496391/159099670-610c931d-d399-4a55-8d8a-b7933699846a.png)
+
+
  
 
 ## 📝 Licença
